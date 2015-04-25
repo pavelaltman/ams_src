@@ -1,0 +1,17 @@
+DECLARE
+   CURSOR cu IS SELECT * FROM TOVARY FOR UPDATE ;
+   a NUMBER ;
+BEGIN
+  FOR R IN cu LOOP
+    BEGIN
+       DELETE TOVARY WHERE CURRENT OF cu ;
+    EXCEPTION
+       WHEN OTHERS THEN
+            a:=1 ;
+    END ;
+    commit ;
+  END LOOP ;
+END ;
+/
+
+exit

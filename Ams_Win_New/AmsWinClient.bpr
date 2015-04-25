@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="AmsWinClient.exe"/>
+    <OBJFILES value="AmsWinClient.obj ams_win_c.obj FRM_BROWS_DB.obj FRM_CHOOSE_OBJ.obj 
+      ..\COMMON\AMS_EXC.obj FRM_EDIT_DB_POS.obj FRM_FIND_DB_POS2.obj 
+      ..\COMP\GET_DB_POS.obj AMS_VAL.obj FRM_SORT_ORDER.obj 
+      ..\COMMON\AMS_READ_CNF.obj FRM_QUICK_SEARCH.obj 
+      ..\COMMON\FRM_GET_DB_CAT.obj FRM_SET_FLD.obj 
+      ..\COMMON\FRM_WINDOWS_LIST.obj FRM_CHOOSE_DB_POS.obj FRM_HIST_VIEW.obj 
+      FRM_HIST_BRWS.obj ..\COMMON\FLDS_DESCR.obj ADD_MODULE.obj Scrneng.obj 
+      Amsoraru.obj Analytic.obj Anprog.obj Basew32.obj Bookrus1.obj Date.obj 
+      Intpost.obj Orcflds.obj orcpp.obj Progcomp.obj Progfunc.obj Proglex.obj 
+      Progmisc.obj Progora.obj Progpipe.obj Progrun.obj Rctype.obj Useprog.obj 
+      Sumtext.obj Syntbl.obj Sum.obj Strlist.obj ..\COMMON\FRM_SEL_LIST.obj 
+      ..\COMMON\FRM_EDIT_MEMO.obj ..\COMMON\THREAD_READ_FILE.obj 
+      ..\common\FRM_ASK_ACC_CODE.obj FRM_INPUT_OPER.obj FRM_PERIOD.obj 
+      inp_oper_utils.obj FRM_OPER_HIST.obj FRM_BROWS_AN.obj 
+      ..\COMMON\AMS_QUERY.obj ..\COMMON\FRM_GET_SET_NAME.obj FOOTER_CNTRL.obj 
+      FRM_FOOTER_VISIBLE.obj FRM_ACC_LIST.obj ..\COMMON\UTILS.obj 
+      FRM_ASK_ACC_ANAL.obj FRM_ASK_AN_SUM_TYPE.obj FRM_SEL_CPS_DATE.obj 
+      LOCAL_VARS.obj FRM_CHOOSE_OBJ_MODAL.obj FRM_BROWS_AN_MODAL.obj 
+      FRM_CHOOSE_FORM.obj FRM_CHOOSE_STD_OPER.obj FRM_COND_INFO.obj 
+      FRM_EDIT_DB_POS_ONLY.obj FRM_CHOOSE_STD_OPER_MODAL.obj 
+      FRM_INPUT_SUM_NM.obj FRM_ASK_ACC_FIRST.obj ..\COMMON\FLDS_DESCR_DISTR.obj 
+      BRWS_ACC_WINDOW.obj FRM_BRWS_ACC_WINDOW.obj FRM_VIEW_OPTIONS_AW.obj 
+      FRM_OPER_LIST_ROOT.obj FRM_OPER_LIST.obj FRM_AN_VIEW.obj REFRESH_ACCS.obj 
+      FRM_ASK_ANAL_SUM_TYPE2.obj FRM_CHOOSE_OPER.obj FRM_FILTER_FORM.obj 
+      FRM_POST_OPERS.obj FRM_CALC.obj FRM_ASK_DK.obj FRM_EDIT_OPT.obj 
+      FRM_ASK_FLDS_NAMES.obj FRM_ANAL_SETUP.obj FRM_INS_EXCEL_IMP.obj 
+      FRM_READ_EXCEL_IMP.obj FRM_USER_OPTS.obj FRM_SHOW_TIED_DB.obj FRM_MSG.obj 
+      FRM_CHOOSE_NOT_PLAIN_PERIOD.obj AAS_OBJ.obj ACC_MAN.obj READ_FILE.obj 
+      ..\common\FRM_ASK_SUM.obj ..\common\FRM_ASK_DATE.obj FRM_ASK_DB_AN_FLD.obj 
+      FRM_OPER_LIST_TIED_OPERS.obj FRM_EXIT.obj ..\COMMON\ams_utils.obj 
+      Impoper.obj DAT_MOD.obj FRM_MAP.obj AboutBoxUnit.obj FRM_CUSTOM_PERIOD.obj"/>
+    <RESFILES value="AmsWinClient.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ams_win_c.dfm FRM_BROWS_DB.dfm FRM_CHOOSE_OBJ.dfm 
+      FRM_EDIT_DB_POS.dfm FRM_FIND_DB_POS2.dfm FRM_SORT_ORDER.dfm 
+      FRM_QUICK_SEARCH.dfm ..\COMMON\FRM_GET_DB_CAT.dfm FRM_SET_FLD.dfm 
+      ..\COMMON\FRM_WINDOWS_LIST.dfm FRM_CHOOSE_DB_POS.dfm FRM_HIST_VIEW.dfm 
+      FRM_HIST_BRWS.dfm ..\COMMON\FRM_SEL_LIST.dfm ..\COMMON\FRM_EDIT_MEMO.dfm 
+      ..\common\FRM_ASK_ACC_CODE.dfm FRM_INPUT_OPER.dfm FRM_PERIOD.dfm 
+      FRM_OPER_HIST.dfm FRM_BROWS_AN.dfm ..\COMMON\FRM_GET_SET_NAME.dfm 
+      FRM_FOOTER_VISIBLE.dfm FRM_ACC_LIST.dfm FRM_ASK_ACC_ANAL.dfm 
+      FRM_ASK_AN_SUM_TYPE.dfm FRM_SEL_CPS_DATE.dfm FRM_CHOOSE_OBJ_MODAL.dfm 
+      FRM_BROWS_AN_MODAL.dfm FRM_CHOOSE_FORM.dfm FRM_CHOOSE_STD_OPER.dfm 
+      FRM_COND_INFO.dfm FRM_EDIT_DB_POS_ONLY.dfm FRM_CHOOSE_STD_OPER_MODAL.dfm 
+      FRM_INPUT_SUM_NM.dfm FRM_ASK_ACC_FIRST.dfm FRM_BRWS_ACC_WINDOW.dfm 
+      FRM_VIEW_OPTIONS_AW.dfm FRM_OPER_LIST_ROOT.dfm FRM_OPER_LIST.dfm 
+      FRM_AN_VIEW.dfm FRM_ASK_ANAL_SUM_TYPE2.dfm FRM_CHOOSE_OPER.dfm 
+      FRM_FILTER_FORM.dfm FRM_POST_OPERS.dfm FRM_CALC.dfm FRM_ASK_DK.dfm 
+      FRM_EDIT_OPT.dfm FRM_ASK_FLDS_NAMES.dfm FRM_ANAL_SETUP.dfm 
+      FRM_INS_EXCEL_IMP.dfm FRM_READ_EXCEL_IMP.dfm FRM_USER_OPTS.dfm 
+      FRM_SHOW_TIED_DB.dfm FRM_MSG.dfm FRM_CHOOSE_NOT_PLAIN_PERIOD.dfm 
+      ..\common\FRM_ASK_SUM.dfm ..\common\FRM_ASK_DATE.dfm FRM_ASK_DB_AN_FLD.dfm 
+      FRM_OPER_LIST_TIED_OPERS.dfm FRM_EXIT.dfm DAT_MOD.dfm FRM_MAP.dfm 
+      AboutBoxUnit.dfm FRM_CUSTOM_PERIOD.dfm"/>
+    <LIBFILES value="..\FISC\fisc.lib"/>
+    <LIBRARIES value="comp3.lib Vclx50.lib VCLBDE50.lib AMS_COMP2.lib VCLDB50.lib doa.lib 
+      Vcl50.lib"/>
+    <SPARELIBS value="Vcl50.lib doa.lib VCLDB50.lib AMS_COMP2.lib VCLBDE50.lib Vclx50.lib 
+      comp3.lib"/>
+    <PACKAGES value="Vcl50.bpi Vclx50.bpi bcbsmp50.bpi Vcldb50.bpi vclado50.bpi ibsmp50.bpi 
+      VCLBDE50.bpi vcldbx50.bpi Qrpt50.bpi TeeUI50.bpi TeeDB50.bpi Tee50.bpi 
+      Dss50.bpi TeeQR50.bpi VCLIB50.bpi Vclmid50.bpi vclie50.bpi Inetdb50.bpi 
+      Inet50.bpi NMFast50.bpi webmid50.bpi bcbie50.bpi dclocx50.bpi 
+      bcb97axserver50.bpi doa.bpi AMS_COMP2.bpi"/>
+    <PATHCPP value=".;..\COMMON;..\COMP"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value="AMS_PROJ;_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="AmsWinClient.cpp"/>
+    <INCLUDEPATH value="e:\bcb\CBuilder5\Projects\;E:\;..;Inpoper;..\Ams_Win_And;W:\okop\;&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;d:\borland\cbuilder5\Lib\;&quot;E:\Program Files\Borland\CBuilder5\Projects\&quot;;&quot;D:\Program Files\Borland\CBuilder5\Bin\&quot;;..\comp;&quot;D:\Program Files\Borland\CBuilder5\Projects\&quot;;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units;..\COMMON"/>
+    <LIBPATH value="e:\bcb\CBuilder5\Projects\;E:\;..;Inpoper;..\Ams_Win_And;W:\okop\;&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;..\COMMON;&quot;E:\Program Files\Borland\CBuilder5\Projects\&quot;;&quot;D:\Program Files\Borland\CBuilder5\Bin\&quot;;..\comp;&quot;D:\Program Files\Borland\CBuilder5\Projects\&quot;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS"/>
+    <WARNINGS value="-w-par -w-hid"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -DAMS_PROJ -D_DEBUG -Ie:\bcb\CBuilder5\Projects\. -IE:\. 
+      -I.. -IInpoper -I..\Ams_Win_And -IW:\okop\. 
+      -I&quot;C:\Program Files\Borland\CBuilder5\Projects\.&quot; 
+      -Id:\borland\cbuilder5\Lib\. 
+      -I&quot;E:\Program Files\Borland\CBuilder5\Projects\.&quot; 
+      -I&quot;D:\Program Files\Borland\CBuilder5\Bin\.&quot; -I..\comp 
+      -I&quot;D:\Program Files\Borland\CBuilder5\Projects\.&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -I..\doa\CB4RUS -I..\rx\Units -I..\COMMON -boa"/>
+    <CFLAG1 value="-O2 -H=precomp.csm -Vx -Ve -X- -a8 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -S:0x400000 -Sc:0x100000 -aa -Tpe -GD -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=5
+MinorVer=2
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=ТОВ &quot;АМС&quot; http:\\www.ams.kiev.ua
+FileDescription=AMSWindowsClient
+FileVersion=5.2.0.0
+InternalName=
+LegalCopyright=ТОВ &quot;АМС&quot; 1992-2002
+LegalTrademarks=
+OriginalFilename=
+ProductName=АМС Клиент-сервер
+ProductVersion=5.2.0.0
+Comments=
+
+[Excluded Packages]
+E:\WINNT\System32\ibsmp50.bpl=Borland C++ InterBase Alerter Component
+
+[HistoryLists\hlIncludePath]
+Count=26
+Item0=e:\bcb\CBuilder5\Projects\;E:\;..;Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units;..\COMMON
+Item1=e:\bcb\CBuilder5\Projects;E:\;..;Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units;..\COMMON
+Item2=E:\;..;Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units;..\COMMON
+Item3=E:\;..\;Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units;..\COMMON
+Item4=Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units;..\COMMON
+Item5=W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units;..\COMMON
+Item6=..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units;..\COMMON
+Item7=..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item8=W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item9=W:\okop\;..\COMMON;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item10=W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item11=W:\okop;C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item12=C:\Program Files\Borland\CBuilder5\Projects\;d:\borland\cbuilder5\Lib\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item13=C:\Program Files\Borland\CBuilder5\Projects;d:\borland\cbuilder5\Lib\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item14=d:\borland\cbuilder5\Lib\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item15=d:\borland\cbuilder5\Lib;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item16=..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;..\rx\Units
+Item17=..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS;W:\BC40\rx\Units
+Item18=..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS
+Item19=W:\BC40\COMMON\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS
+Item20=W:\BC40\COMMON;E:\Program Files\Borland\CBuilder5\Projects;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS
+Item21=D:\Program Files\Borland\CBuilder5\Bin\;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\doa\CB4RUS
+Item22=D:\Program Files\Borland\CBuilder5\Bin\;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;W:\BC40\doa\CB4RUS
+Item23=D:\Program Files\Borland\CBuilder5\Bin\;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item24=D:\Program Files\Borland\CBuilder5\Bin;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item25=..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=20
+Item0=e:\bcb\CBuilder5\Projects\;E:\;..;Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item1=e:\bcb\CBuilder5\Projects;E:\;..;Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item2=E:\;..;Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item3=E:\;..\;Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item4=Inpoper;..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item5=..\Ams_Win_And;W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item6=W:\okop\;C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item7=W:\okop;C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item8=C:\Program Files\Borland\CBuilder5\Projects\;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item9=C:\Program Files\Borland\CBuilder5\Projects;..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item10=..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;..\doa\CB4RUS
+Item11=..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units;W:\BC40\doa\CB4RUS
+Item12=..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\RX\Units
+Item13=..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;W:\BC40\RX\Units
+Item14=..\COMMON;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item15=W:\BC40\COMMON\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item16=W:\BC40\COMMON;E:\Program Files\Borland\CBuilder5\Projects;D:\Program Files\Borland\CBuilder5\Bin\;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item17=D:\Program Files\Borland\CBuilder5\Bin\;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item18=D:\Program Files\Borland\CBuilder5\Bin;..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item19=..\comp;..\common;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=3
+Item0=e:\bcb\cbuilder5\source\vcl;E:\AMSORA\client\answer\COMP\;E:\AMSORA\client\answer_\COMP\
+Item1=e:\bcb\cbuilder5\source\vcl;E:\AMSORA\client\answer\COMP\
+Item2=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=4
+Item0=AMS_PROJ;_DEBUG
+Item1=AMS_PROJ
+Item2=_DEBUG;AMS_PROJ
+Item3=_DEBUG
+
+[Debugging]
+DebugSourceDirs=e:\bcb\cbuilder5\source\vcl;E:\AMSORA\client\answer\COMP\;E:\AMSORA\client\answer_\COMP\
+
+[Parameters]
+RunParams=user=gena pass=new inifile=e:\amsora\client\PODIN.ini 
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

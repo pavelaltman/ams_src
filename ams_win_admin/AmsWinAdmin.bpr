@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="AmsWinAdmin.exe"/>
+    <OBJFILES value="AmsWinAdmin.obj MAIN_FRM.obj Frm_Cat_Tree.obj FRM_ACCS.obj 
+      FRM_ACCS_STR.obj ..\COMMON\AMS_UTILS.obj FRM_COPY_STD_OP.obj 
+      ..\COMMON\AMS_EXC.obj copy_cond_iTEMS.obj FRM_CONDS_EDIT.obj 
+      ..\COMMON\AMS_CONST.obj ..\COMMON\FRM_INPUT_VALUE.obj FRM_ACCS_TIES.obj 
+      FRM_BUILD_BUSY_PROG.obj FRM_BUILD_AN_FUNC.obj FRM_GIVE_RIGHTS.obj 
+      FRM_GEN_SETUP.obj ..\COMMON\AMS_READ_CNF_UTIL.obj 
+      ..\COMMON\AMS_READ_CNF.obj FRM_SET_AN_FLD_ORDER.obj 
+      ..\COMMON\AMS_QUERY.obj ADMIN_DAT_MOD.obj ..\COMMON\FRM_GET_SET_NAME.obj 
+      ..\COMMON\FLDS_DESCR.obj FRM_CHOOSE_OBJ_ADM.obj ..\COMMON\utils.obj 
+      FRM_COPY_TREE.obj FRM_CHOOSE_OBJ_A_DB.obj AMS_ADM_UTILS.obj 
+      FRM_EDIT_GLOBAL_SETUP.obj FRM_EDIT_BUCH_SETUP.obj FRM_INPUT_PASS.obj 
+      FRM_SEL_CPS_DATE.obj"/>
+    <RESFILES value="AmsWinAdmin.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MAIN_FRM.dfm Frm_Cat_Tree.dfm FRM_ACCS.dfm FRM_ACCS_STR.dfm 
+      FRM_COPY_STD_OP.dfm FRM_CONDS_EDIT.dfm ..\COMMON\FRM_INPUT_VALUE.dfm 
+      FRM_ACCS_TIES.dfm FRM_BUILD_BUSY_PROG.dfm FRM_BUILD_AN_FUNC.dfm 
+      FRM_GIVE_RIGHTS.dfm FRM_GEN_SETUP.dfm FRM_SET_AN_FLD_ORDER.dfm 
+      ADMIN_DAT_MOD.dfm ..\COMMON\FRM_GET_SET_NAME.dfm FRM_CHOOSE_OBJ_ADM.dfm 
+      FRM_COPY_TREE.dfm FRM_CHOOSE_OBJ_A_DB.dfm FRM_EDIT_GLOBAL_SETUP.dfm 
+      FRM_EDIT_BUCH_SETUP.dfm FRM_INPUT_PASS.dfm FRM_SEL_CPS_DATE.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="AMS_COMP2.lib doa.lib vclx50.lib vclbde50.lib vcldb50.lib vcl50.lib"/>
+    <SPARELIBS value="vcl50.lib vcldb50.lib vclbde50.lib vclx50.lib doa.lib AMS_COMP2.lib"/>
+    <PACKAGES value="vcl50.bpi vclx50.bpi vcljpg50.bpi vclmid50.bpi vcldb50.bpi vclbde50.bpi 
+      doa.bpi"/>
+    <PATHCPP value=".;..\COMMON"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="-DAMS_PROJ;_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_VIS_NOLIB"/>
+    <MAINSOURCE value="AmsWinAdmin.cpp"/>
+    <INCLUDEPATH value="..\RX\Units;&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;&quot;E:\Program Files\Borland\CBuilder5\Projects\&quot;;&quot;D:\Program Files\Borland\CBuilder5\Projects\&quot;;F:\NBU\BC40\ROLES\;..\comp;&quot;D:\Program Files\Borland\CBuilder5\Bin\&quot;;&quot;E:\Program Files\Borland\CBuilder4\Projects\&quot;;&quot;E:\Program Files\Borland\CBuilder4\Bin\&quot;;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl;..\DOA\CB4RUS;..\ams_win"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;&quot;E:\Program Files\Borland\CBuilder5\Projects\&quot;;&quot;D:\Program Files\Borland\CBuilder5\Projects\&quot;;F:\NBU\BC40\ROLES\;..\comp;&quot;D:\Program Files\Borland\CBuilder5\Bin\&quot;;$(BCB)\Projects\Lib;c:\delphi\rx\units\;&quot;e:\program files\borland\cbuilder4\projects\lib\&quot;;&quot;E:\Program Files\Borland\CBuilder4\Projects\&quot;;&quot;E:\Program Files\Borland\CBuilder4\Bin\&quot;;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus;..\DLL_PrintError;..\rx\units"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\RX\Units -I&quot;C:\Program Files\Borland\CBuilder5\Projects\.&quot; 
+      -I&quot;E:\Program Files\Borland\CBuilder5\Projects\.&quot; 
+      -I&quot;D:\Program Files\Borland\CBuilder5\Projects\.&quot; -IF:\NBU\BC40\ROLES\. 
+      -I..\comp -I&quot;D:\Program Files\Borland\CBuilder5\Bin\.&quot; 
+      -I&quot;E:\Program Files\Borland\CBuilder4\Projects\.&quot; 
+      -I&quot;E:\Program Files\Borland\CBuilder4\Bin\.&quot; -Ic:\delphi\rx\units\. 
+      -I..\COMMON -I$(BCB)\include -I$(BCB)\include\vcl -I..\DOA\CB4RUS 
+      -I..\ams_win -src_suffix cpp -D-DAMS_PROJ -D_DEBUG -boa"/>
+    <CFLAG1 value="-O2 -H=precomp.csm -Vx -Ve -X- -a8 -4 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=45
+Build=77
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=ООО &quot;АМС&quot;, 2000
+FileDescription=support@ams.kiev.ua
+FileVersion=1.0.45.77
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+E:\WINNT\System32\ibsmp50.bpl=Borland C++ InterBase Alerter Component
+
+[HistoryLists\hlIncludePath]
+Count=23
+Item0=..\RX\Units;C:\Program Files\Borland\CBuilder5\Projects\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl;..\DOA\CB4RUS;..\ams_win
+Item1=C:\Program Files\Borland\CBuilder5\Projects\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl;..\DOA\CB4RUS;..\ams_win
+Item2=C:\Program Files\Borland\CBuilder5\Projects;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl;..\DOA\CB4RUS;..\ams_win
+Item3=E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl;..\DOA\CB4RUS;..\ams_win
+Item4=E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl;..\DOA\CB4RUS
+Item5=E:\Program Files\Borland\CBuilder5\Projects;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl;E:\WORK\BC40\DOA\CB4RUS
+Item6=E:\Program Files\Borland\CBuilder5\Projects;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item7=D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item8=D:\Program Files\Borland\CBuilder5\Projects;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item9=F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item10=F:\NBU\BC40\ROLES;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item11=..\comp;D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item12=D:\Program Files\Borland\CBuilder5\Bin\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item13=D:\Program Files\Borland\CBuilder5\Bin;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item14=E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item15=E:\Program Files\Borland\CBuilder4\Projects;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item16=E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item17=E:\Program Files\Borland\CBuilder4\Bin;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;$(BCB)\include;$(BCB)\include\vcl
+Item18=E:\Program Files\Borland\CBuilder4\Bin;c:\delphi\rx\units\;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;$(BCB)\include;$(BCB)\include\vcl
+Item19=c:\delphi\rx\units\;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;$(BCB)\include;$(BCB)\include\vcl
+Item20=c:\delphi\rx\units;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;$(BCB)\include;$(BCB)\include\vcl
+Item21=..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;$(BCB)\include;$(BCB)\include\vcl
+Item22=..\COMMON;E:\Program Files\Borland\CBuilder4\Bin;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=30
+Item0=C:\Program Files\Borland\CBuilder5\Projects\;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus;..\DLL_PrintError;..\rx\units
+Item1=C:\Program Files\Borland\CBuilder5\Projects;E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus;..\DLL_PrintError;..\rx\units
+Item2=E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus;..\DLL_PrintError;..\rx\units
+Item3=E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus;..\DLL_PrintError
+Item4=E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus;E:\WORK\BC40\DLL_PrintError
+Item5=E:\Program Files\Borland\CBuilder5\Projects\;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item6=E:\Program Files\Borland\CBuilder5\Projects;D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item7=D:\Program Files\Borland\CBuilder5\Projects\;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item8=D:\Program Files\Borland\CBuilder5\Projects;F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item9=F:\NBU\BC40\ROLES\;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item10=F:\NBU\BC40\ROLES;..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item11=..\comp;D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item12=D:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item13=D:\Program Files\Borland\CBuilder5\Bin;$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item14=$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib;..\doa\cb4rus
+Item15=$(BCB)\Projects\Lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item16=c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Projects\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item17=c:\delphi\rx\units;e:\program files\borland\cbuilder4\projects\lib;E:\Program Files\Borland\CBuilder4\Projects\;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item18=E:\Program Files\Borland\CBuilder4\Projects;c:\delphi\rx\units;e:\program files\borland\cbuilder4\projects\lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item19=c:\delphi\rx\units;e:\program files\borland\cbuilder4\projects\lib;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Bin\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item20=c:\delphi\rx\units;e:\program files\borland\cbuilder4\projects\lib;E:\Program Files\Borland\CBuilder4\Bin;E:\Program Files\Borland\CBuilder4\Bin\;e:\program files\borland\cbuilder4\projects\lib\;c:\delphi\rx\units\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item21=e:\program files\borland\cbuilder4\projects\lib;e:\program files\borland\cbuilder4\projects\lib\;E:\Program Files\Borland\CBuilder4\Bin\;c:\delphi\rx\units\;..\COMMON;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item22=e:\program files\borland\cbuilder4\projects\lib;E:\Program Files\Borland\CBuilder4\Bin;e:\program files\borland\cbuilder4\projects\lib\;c:\delphi\rx\units\;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item23=e:\program files\borland\cbuilder4\projects\lib;e:\program files\borland\cbuilder4\projects\lib\;c:\delphi\rx\units\;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item24=e:\program files\borland\cbuilder4\projects\lib\;c:\delphi\rx\units\;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item25=e:\program files\borland\cbuilder4\projects\lib;c:\delphi\rx\units;c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item26=c:\delphi\rx\units\;e:\program files\borland\cbuilder4\projects\lib\;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item27=c:\delphi\rx\units;e:\program files\borland\cbuilder4\projects\lib;e:\program files\borland\cbuilder4\projects\lib\;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item28=e:\program files\borland\cbuilder4\projects\lib;..\COMMON;E:\Program Files\Borland\CBuilder4\Bin\;e:\program files\borland\cbuilder4\projects\lib\;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item29=..\COMMON;E:\Program Files\Borland\CBuilder4\Bin;e:\program files\borland\cbuilder4\projects\lib;..\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=5
+Item0=-DAMS_PROJ;_DEBUG
+Item1=-DAMS_PROJ
+Item2=_DEBUG;-DAMS_PROJ
+Item3=_DEBUG;AMS_POROJ
+Item4=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=user=init pass=init inifile=e:\amsora\client\init.ini 
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

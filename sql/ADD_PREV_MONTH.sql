@@ -1,0 +1,12 @@
+begin
+    periods.BeginPrevMonth;
+end;
+/
+commit;
+/
+begin
+    periods.delLongTurns;
+end;
+/
+commit;
+exit;

@@ -1,0 +1,58 @@
+/* предоставление необходимых прав роли &1.role */
+
+grant select on objs to &1.role;
+grant select,insert,update,delete on consts to &1.role;
+grant select on objcat to &1.role;
+grant select on cattree to &1.role;
+grant select on objpriv to &1.role;
+grant select on cps to &1.role;
+grant select on rems to &1.role;
+grant select on conds to &1.role;
+grant select on cond_items to &1.role;
+grant select on cints to &1.role;
+grant select on accs to &1.role;
+grant select,update on user_options to &1.role;
+grant select,insert,update,delete on opers to &1.role;
+grant select,insert,update,delete on op_items to &1.role;
+grant select on opitems to &1.role;
+grant select on opers_docs to &1.role;
+grant select on coritems to &1.role;
+grant select on perturns to &1.role;
+grant select on remainders to &1.role;
+grant select on per_corturns to &1.role;
+grant select on ops_and_items to &1.role;
+grant select on turns to &1.role;
+grant select on rems_turns to &1.role;
+grant select,insert,update,delete on sums to &1.role;
+grant select on OperSeq to &1.role ;
+grant select on SumSeq to &1.role ;
+grant select on privtest to &1.role ;
+grant select on history to &1.role ;
+grant select on del_opers to &1.role ;
+grant select on del_opitems to &1.role ;
+grant select on del_op_items to &1.role ;
+grant select,update(def_opt,disp_opt) on dbstr to &1.role ;
+grant select,insert,update,delete on dbcat to &1.role ;
+grant select,insert,update,delete on dbcattree to &1.role ;
+grant select on dbopt to &1.role ;
+grant select on dboptov to &1.role ;
+grant execute on containobjs to &1.role;
+grant execute on havepriv to &1.role;
+grant execute on haverole to &1.role;
+grant execute on CreateSum to &1.role;
+grant execute on NormChar to &1.role;
+grant execute on periods to &1.role;
+grant execute on bookkern to &1.role;
+grant execute on makedbtree to &1.role;
+grant execute on insertdbcat to &1.role;
+grant execute on GetConst to &1.role;
+grant execute on CopyAnalSum to &1.role;
+grant execute on MoveAnalSum to &1.role;
+grant execute on DeleteAnalSum to &1.role;
+grant execute on getshema to &1.role;
+grant execute on init_rights to &1.role;
+grant execute on expandedsaldo to &1.role;
+grant alter rollback segment to &1.role ;
+grant select on SYS.V_$SESSION to &1.role ;
+exit
+

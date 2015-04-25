@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="Interpr2.exe"/>
+    <OBJFILES value="Interpr2.obj MAIN_FRM.obj AMS_QUERY.obj Analytic.obj Anprog.obj 
+      Bookrus1.obj Intpost.obj Progcomp.obj Progfunc.obj Proglex.obj 
+      Progmisc.obj Progora.obj Progpipe.obj Progrun.obj Sum.obj Sumtext.obj 
+      Useprog.obj Strlist.obj Rctype.obj orcpp.obj Orcflds.obj Date.obj 
+      ..\COMMON\AMS_EXC.obj ..\COMMON\AMS_UTILS.obj Amsoraru.obj 
+      ..\COMMON\UTILS.obj Syntbl.obj Scrneng.obj DAT_MOD_INTERPR.obj 
+      ADD_MODULE.obj ..\COMMON\FRM_SEL_LIST.obj"/>
+    <RESFILES value="Interpr2.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MAIN_FRM.dfm DAT_MOD_INTERPR.dfm ..\COMMON\FRM_SEL_LIST.dfm"/>
+    <LIBFILES value="..\Dll_PrintError\PrintError.lib &quot;D:\Program Files\Borland\CBuilder5\Projects\Lib\doa.lib&quot;"/>
+    <LIBRARIES value="AMS_COMP2.lib VCLX50.lib VCLDB50.lib Vcl50.lib"/>
+    <SPARELIBS value="Vcl50.lib VCLDB50.lib VCLX50.lib AMS_COMP2.lib"/>
+    <PACKAGES value="Vcl50.bpi Vclx50.bpi bcbsmp50.bpi Vcldb50.bpi vclado50.bpi ibsmp50.bpi 
+      VCLBDE50.bpi vcldbx50.bpi Qrpt50.bpi TeeUI50.bpi TeeDB50.bpi Tee50.bpi 
+      Dss50.bpi TeeQR50.bpi VCLIB50.bpi Vclmid50.bpi vclie50.bpi Inetdb50.bpi 
+      Inet50.bpi NMFast50.bpi webmid50.bpi bcbie50.bpi dclocx50.bpi 
+      bcb97axserver50.bpi AMS_COMP2.bpi"/>
+    <PATHCPP value=".;..\COMMON"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Interpr2.cpp"/>
+    <INCLUDEPATH value="&quot;D:\Program Files\Borland\CBuilder5\Bin&quot;;$(BCB)\include;$(BCB)\include\vcl;..\COMMON;..\comp;..\doa\CB4RUS;..\RX\Units"/>
+    <LIBPATH value="&quot;D:\Program Files\Borland\CBuilder5\Bin&quot;;..\COMMON;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\COMP"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;D:\Program Files\Borland\CBuilder5\Bin&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -I..\COMMON -I..\comp -I..\doa\CB4RUS -I..\RX\Units 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=interpr.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=0
+Build=2
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=&quot;AMS Inc.&quot;, Kiev, Ukraine 
+FileDescription=Интерпретатор макроязыка бухгалтерии
+FileVersion=1.0.0.2
+InternalName=Interpreter for bookkeeping AMS program
+LegalCopyright=Kiev, 2001
+LegalTrademarks=
+OriginalFilename=Interpr2
+ProductName=AMS Bookkeeping
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=$(BCB)\include;$(BCB)\include\vcl;..\COMMON;..\comp;..\doa\CB4RUS;..\RX\Units
+Item1=W:\BC40\Interpr2;$(BCB)\include;$(BCB)\include\vcl;W:\BC40\COMMON\;W:\BC40\comp\;W:\BC40\doa\CB4RUS\;W:\BC40\RX\Units\
+Item2=$(BCB)\include;$(BCB)\include\vcl;W:\BC40\COMMON\;W:\BC40\comp\;W:\BC40\doa\CB4RUS\;W:\BC40\RX\Units\
+Item3=$(BCB)\include;$(BCB)\include\vcl;W:\BC40\COMMON;W:\BC40\comp;W:\BC40\doa\CB4RUS;W:\BC40\RX\Units
+Item4=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=..\COMMON;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\COMP
+Item1=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\COMP
+Item2=W:\BC40\Interpr2;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;W:\BC40\COMP\
+Item3=$(BCB)\lib\obj;$(BCB)\lib;W:\BC40\COMP
+Item4=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

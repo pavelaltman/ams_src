@@ -1,0 +1,4 @@
+update accs set DESCR='Балансові рахунки' where NAME='A'
+update accs set DESCR='Забалансові рахунки' where NAME='Z'
+commit;
+

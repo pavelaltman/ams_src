@@ -1,0 +1,7 @@
+/* создание пользователя и предопределенных ролей */
+GRANT CONNECT,RESOURCE,UNLIMITED TABLESPACE TO AMS IDENTIFIED BY AMS ;
+ALTER USER AMS DEFAULT TABLESPACE USER_DATA ;
+ALTER USER AMS TEMPORARY TABLESPACE TEMPORARY_DATA ;
+grant create role to AMS;
+grant select any table to AMS;
+exit

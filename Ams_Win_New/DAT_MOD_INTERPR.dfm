@@ -1,0 +1,167 @@
+object DatMod: TDatMod
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Left = 223
+  Top = 161
+  Height = 479
+  Width = 741
+  object OSession: TOracleSession
+    Cursor = crHourGlass
+    DesignConnection = False
+    LogonUsername = 'Vlad'
+    LogonPassword = 'asdzxc'
+    LogonDatabase = 'S'
+    ConnectAs = caNormal
+    ThreadSafe = False
+    Preferences.FloatPrecision = 0
+    Preferences.IntegerPrecision = 0
+    Preferences.SmallIntPrecision = -1
+    Preferences.UseOCI7 = False
+    Preferences.ConvertCRLF = True
+    Preferences.TrimStringFields = True
+    Preferences.MaxStringFieldSize = 0
+    Preferences.ZeroDateIsNull = True
+    Preferences.NullLOBIsEmpty = False
+    Pooling = spNone
+    MTSOptions = [moImplicit, moUniqueServer]
+    Connected = False
+    RollbackOnDisconnect = False
+    NullValue = nvUnAssigned
+    SQLTrace = stUnchanged
+    OptimizerGoal = ogUnchanged
+    IsolationLevel = ilUnchanged
+    BytesPerCharacter = bc1Byte
+    Left = 40
+    Top = 24
+  end
+  object OLogon: TAmsLogon
+    Session = OSession
+    Retries = 2
+    Options = [ldAuto, ldDatabase]
+    AliasDropDownCount = 8
+    HistorySize = 6
+    HistoryWithPassword = False
+    Left = 96
+    Top = 24
+  end
+  object OracleQuery1: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 188
+    Top = 24
+  end
+  object OracleQuery2: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 392
+    Top = 64
+  end
+  object OracleQuery3: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 344
+    Top = 64
+  end
+  object OracleQuery4: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 296
+    Top = 64
+  end
+  object OracleQuery5: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 240
+    Top = 64
+  end
+  object OracleQuery6: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 184
+    Top = 64
+  end
+  object OracleQuery7: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 392
+    Top = 24
+  end
+  object OracleQuery8: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 344
+    Top = 24
+  end
+  object OracleQuery9: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 296
+    Top = 24
+  end
+  object OracleQuery10: TOracleQuery
+    Session = OSession
+    ReadBuffer = 25
+    Optimize = True
+    Debug = False
+    Cursor = crDefault
+    StringFieldsOnly = False
+    Threaded = False
+    ThreadSynchronized = True
+    Left = 240
+    Top = 24
+  end
+end

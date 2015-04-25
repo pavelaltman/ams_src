@@ -1,0 +1,12 @@
+inherited FrmOperList: TFrmOperList
+  Caption = 'FrmOperList'
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited DSet: TOracleDataSet
+    Variables.Data = {
+      0300000003000000050000003A504F5354030000000000000000000000090000
+      003A4245475F444154450C0000000000000000000000090000003A454E445F44
+      4154450C0000000000000000000000}
+  end
+end

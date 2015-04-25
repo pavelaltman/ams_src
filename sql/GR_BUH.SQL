@@ -1,0 +1,8 @@
+grant ATIROLE to GLAVBUH ;
+grant ATISUPER to GLAVBUH ;
+
+BEGIN
+  PRIV_USER('GLAVBUH') ;
+END ;
+/
+exit
